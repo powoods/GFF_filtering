@@ -17,9 +17,9 @@ def features_from_gff(gff, features_column, desired_feature):
     gff : String
         The file name corresponding to the gff file to be filtered.
     features_column : Integer
-        The column containing the feature values to filter by.
+        The column index containing the feature values to extrct.
     desired_feature : String
-        A string containing the name of the genetic feature to be filtered for such as 'gene' or 'mRNA'.
+        A string containing the name of the genetic feature to be extracted from the specified column index such as 'gene' or 'mRNA'.
 
     Returns
     -------
