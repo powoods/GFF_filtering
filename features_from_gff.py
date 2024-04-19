@@ -133,7 +133,7 @@ def features_from_gff(gff, features_column, desired_feature, contig_column=0, de
         
         return file_feat_contig_stop_filt
     
-        
+### Example code for testing out the function's various parameters ###        
 gf_standard=  features_from_gff_v3('transcripts.fasta.transdecoder.genomeCentric.gff3',features_column=2, desired_feature = 'gene')
 gf_standard
 
